@@ -1,16 +1,28 @@
-<nav>
-  <a href="home.html">Home</a>
-  <a href="about.html">About Me</a>
-  <a href="work.html">My Work</a>
-</nav>
 <!DOCTYPE html>
+<!-- Home page: introduces Tristan with a photo and a short intro. -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Your Name — Studio Profile</title>
+  <!-- Makes the page scale properly on phones and tablets. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home — Tristan</title>
+  <!-- Shared stylesheet for the whole site (styles get added in Lesson 2.2). -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Tristan </h1>
-  <img src="images/avatar.png" alt="Describe your avatar here" width=100>
-  <p>Hi my name is Tristan and i like to play golf.</p>
+  <!-- Site navigation: the same menu appears on every page. -->
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="work.html">My Work</a>
+  </nav>
+
+  <h1>Tristan</h1>
+  <!-- The image path is relative to this file, so it must match the images folder name exactly. -->
+  <img src="images/avatar.png" alt="Cartoon avatar of a smiling person with dark hair" width="100">
+  <p>Hi my name is Tristan and I like to play golf.</p>
+
+  <!-- Links the JavaScript file (empty for now; added in Lesson 2.3). -->
+  <script src="js/script.js"></script>
 </body>
+</html>
